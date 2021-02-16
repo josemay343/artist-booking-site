@@ -29,7 +29,7 @@
         {{ form.genres(class_ = 'form-control', placeholder='Genres, separated by commas', id=form.genres, autofocus = true) }}
       </div>
       <div class="form-check-input">
-          <label for="seeking_venue">Seeking Talent</label>
+          <label for="seeking_venue">Seeking Venue</label>
           {{ form.seeking_venue(class_ = 'form-check-input') }}
       </div>
       <div class="form-group">
@@ -45,8 +45,8 @@
           {{ form.facebook_link(class_ = 'form-control', placeholder='http://', id=form.facebook_link, autofocus = true) }}
         </div>
       <div class="form-group">
-          <label for="website_link">Website</label>
-          {{ form.website_link(class_ = 'form-control', placeholder='Website link', id=form.website_link, autofocus = true) }}
+          <label for="website">Website</label>
+          {{ form.website(class_ = 'form-control', placeholder='Website link', id=form.website, autofocus = true) }}
       </div>
       <input type="submit" value="Create Artist" class="btn btn-primary btn-lg btn-block">
     </form>

@@ -1,5 +1,13 @@
 Fyyur
 -----
+## Sources
+- https://www.udacity.com/
+- https://www.python.org/doc/
+- https://stackoverflow.com/
+- https://www.w3schools.com/
+- https://flask-migrate.readthedocs.io/en/latest/
+- https://www.sqlalchemy.org/
+
 
 ## Introduction
 
