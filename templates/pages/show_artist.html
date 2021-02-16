@@ -38,9 +38,21 @@
 			<i class="fas fa-moon"></i> Not currently seeking performance venues
 		</p>
 		{% endif %}
+		<br><br>
+		<a href='/artists/{{ artist.id }}/edit'>
+			<button class='btn btn-default btn-lg fas' id= 'artist-edit-btn' data-id = {{ artist.id }}>
+				Edit Artist
+			</button>
+		</a>
+		<form>
+			<input type='submit' value='Delete Artist'
+				class='btn btn-primary btn-lg fas'
+				formmethod= 'post'
+				formaction='{{ url_for('delete_artist', artist_id=artist.id) }}'>
+		</form>
 	</div>
 	<div class="col-sm-6">
-		<img src="{{ artist.image_link }}" alt="Venue Image" />
+		<img src="{{ artist.image_link }}" alt="Artist Image" />
 	</div>
 </div>
 <section>
